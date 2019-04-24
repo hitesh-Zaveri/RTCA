@@ -1,0 +1,54 @@
+name: tfdeeplearning
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.6.5
+- cloudpickle
+- hdf5
+- imagesize
+- jpeg
+- jsonschema
+- keras=2.1.6
+- numpy
+- numpy-base
+- numpydoc
+- opencv=3.3.1
+- pickleshare
+- pillow
+- pip
+- six
+- tensorflow=1.8.0
+- tensorflow-base=1.8.0
+- wheel
+- yaml
+- pip:
+  - cmake==0.7.1
+  - boost==0.1
+  - boost-py
+  - dlib>=19.3.0
+  - numpy
+  - Pillow
+  - aniso8601==1.2.0
+  - asn1crypto==0.24.0
+  - certifi==2018.4.16
+  - cffi==1.11.5
+  - chardet==3.0.4
+  - cryptography==1.9
+  - Flask==0.12.1
+  - Flask-Ask==0.9.7
+  - click==6.7
+  - cython==0.28.4
+  - face-recognition==1.2.2
+  - face-recognition-models==0.3.0
+  - lxml==4.2.3
+  - mkl-fft
+  - mkl-random
+  - prompt-toolkit==1.0.15
+  - requests-file==1.4.3
+  - requests-ftp==0.3.1
+  - tensorflow-tensorboard==0.1.6
+  - win-inet-pton==1.0.1
+  - win-unicode-console==0.5
+prefix: C:\Users\Chintu\Anaconda3\envs\tfdeeplearning
+
